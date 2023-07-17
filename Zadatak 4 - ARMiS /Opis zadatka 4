@@ -1,0 +1,29 @@
+Kreirati mrežu sa prostornim rasporedom kao na slici. Izvršiti VLSM subnetiranje opsega IP adresa 10.X.0.0/16 prema potrebama mreža kako slijedi:
+VLAN10. 5 hostova VLAN20. 15 hostova
+LAN1. 126 hostova
+LAN2. 258 hostova
+LAN3. 4000 hostova
+LAN4. 1 host
+Za mreže između routera koristiti opseg IP adresa 192.168.x.0/16
+
+Konfigurisati mrežu kao na slici i omogućiti komunikaciju između svih uređaja u mreži. Svi računari unutar subneta predstavljaju prvog i posljednjeg hosta tog subneta i shodno tome im je potrebno konfigurisati IP adrese. Rutiranje realizovati statički ili dinamički.
+
+Omogućiti konzolni pristup na R4
+Omogućiti SSH pristup na R4
+Osigurati uređaj lozinkama za svaki nivo i vrstu pristupa prema pravilima i preporukama osiguravanja mrežnih uređaja
+
+PC2 i PC4 pripadaju VLAN10 pod nazivom "Management"
+PC3 i PC5 pripadaju VLAN20 pod nazivom "Maintenance"
+Na R1 realizovati router-on-a-stick inter-VLAN rutiranje
+Podesiti management pristup Switch-u S2
+
+Router R4 ima ulogu DHCP servera za LAN3
+Pool adresa nosi naziv AutoIPAssignment
+Iz DHCP procesa Isključene su sve adrese od 1000. do 2000. slobodne adrese u subnetu
+Osim dodjela adresa dodjeljuje se i adresa DNS-a
+
+Serverl je HTTP server na kojem su napravljene barem dvije izmjene u postojećem index.html fajlu 
+Server1 je i DNS server koji IP adresu web site-a pretvara u domenu www.ispitx.ba
+
+HTTP i DNS serveru mogu pristupiti samo računari iz VLAN10 (named extended ACL)
+PCO i PC6 ne može pristupiti Management VLAN-u (numbered standard ACL)
