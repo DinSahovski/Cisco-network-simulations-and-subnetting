@@ -1,0 +1,21 @@
++ Konfigurisati mrežu kao na slici. za IP adrese, lan i vlan mreza koristit opseg 10.0.0.0/8 a za veze izmedju rutera 192.168.1.0/24.
++ VLAN 10, 20 i 30 zahrjevaju po 20 hostova
++ lan 1 zahtjeva 1000 hostova, lan 2, 4 hosta, lan 3, 256 hostova.
+ 
++ Inter vlan rutiranje realizovati metodom router on a stick.
+
++ Rutiranje izmedju rutera R1 R2 i R3 realizovano je eigrp protokolom a veza izmedju R4 prema ostatku mreze defaultnim statickim rutiranjem.
+
++ Racunari u Lanu 1 dobivaju adrese dinamickim putem sa rutera R3. 
+
++ Racunari u lanu 3 dobijaju adrese dinamicki preko dhcp servera.
+
++ HTTP serveri u lanu 1 i 2 imaju po jednu aktivnu domenu sa proizvoljnim sadrzajem web stranice. 
+
++ DNS server u lanu 2 pruza usluge za kompletnu mrezu. 
+
++ HTTP serveru u lanu 1 mogu pristupiti samo uredjaji iz lana 1.
+
++ Telnet i SSH pristup na R4 dozvoljen je racunarima iz vlana 10 i lan-a 2.
+
++ Racunarima iz lan 3 dozvoljen je samo hhtp i dns saobracaj prema lanu 2.
