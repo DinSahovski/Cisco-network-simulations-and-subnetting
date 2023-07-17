@@ -1,0 +1,12 @@
+Potrebno je napraviti mrežu kao na slici
+
+
+Potrebno je:
+
+-Subnetirati sve LAN-ove, VLAN-ove i mreže između routera na način da
+ krajnji uređaji u jednoj mreži predstavljaju prvog i posljednjeg hosta te mreže
+-Implementirati statičko rutiranje za mrežu
+-Omogućiti konzolni pristup preko laptopa na router R4
+-Uspostaviti HTTP i DNS servis na serveru u LAN-u 3 sa nazivom "www.ispitx.ba"
+-Napraviti najmanje dvije izmejene u postojećem HTTP "index.html" fajlu
+
