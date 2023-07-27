@@ -6,7 +6,9 @@ LAN3. 4000 hostova
 LAN4. 1 host
 Za mreže između routera koristiti opseg IP adresa 192.168.x.0/16
 
-Konfigurisati mrežu kao na slici i omogućiti komunikaciju između svih uređaja u mreži. Svi računari unutar subneta predstavljaju prvog i posljednjeg hosta tog subneta i shodno tome im je potrebno konfigurisati IP adrese. Rutiranje realizovati statički ili dinamički.
+Konfigurisati mrežu kao na slici i omogućiti komunikaciju između svih uređaja u mreži.
+Svi računari unutar subneta predstavljaju prvog i posljednjeg hosta tog subneta i shodno tome im je potrebno konfigurisati IP adrese.
+Rutiranje realizovati statički ili dinamički.
 
 Omogućiti konzolni pristup na R4
 Omogućiti SSH pristup na R4
